@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="img/logo-casa.png" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="#">Inicio</a>
+                    <a href="#">Novedades</a>
+                    <a href="#">Ofertas</a>
+                    <a href="#">Nuestros Productos</a>
+                    <a href="#">Casas en Venta</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+
+    </header>
+    <div class="foto4"></div>  
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">Todos nuestros servicios</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Compra y Venta de Propiedades</h3>
+                    <p>Ayudan a los compradores y vendedores a cerrar transacciones de compra y venta de casas. Esto incluye la valoración de propiedades, la comercialización, la negociación de precios y la gestión de la documentación legal.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-code"></i>
+                    <h3>Alquiler de Propiedades</h3>
+                    <p>Ofrecen servicios para encontrar casas de alquiler y ayudan a los inquilinos a buscar y alquilar viviendas. También pueden gestionar contratos de alquiler.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-cog"></i>
+                    <h3>Mantenimiento del Hogar</h3>
+                    <p>Proporcionan servicios de mantenimiento para el hogar, como fontanería, electricidad, reparaciones menores, limpieza y jardinería. Mantengan la propiedad en buen estado.</p>
+                    <a href="#">leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Inspección de Viviendas</h3>
+                    <p> Realizan inspecciones antes de la compra o venta de una casa para evaluar su estado y posibles problemas. Esto es especialmente útil para compradores y vendedores.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-comments"></i>
+                    <h3>Servicios de Diseño de Interiores</h3>
+                    <p>Ofrecen servicios de diseño de interiores para mejorar la estética y la funcionalidad de las viviendas. Esto puede incluir la selección de mobiliario, colores, decoración y la organización del espacio.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Gestión de Propiedades</h3>
+                    <p>Para los propietarios, se encargan de administrar las propiedades en su nombre. Esto implica la búsqueda de inquilinos, la recaudación de alquileres, el mantenimiento y la resolución de problemas con los inquilinos.</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1>Tienda de propiedades en venta</h1>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Villa en Mexico</p>
+								<span class="precio-producto-carrito">$8.000.000</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2021/04/16/16185679347539.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Villa en Mexico</h2>
+					<p class="price">$8.000.000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://mansionesmiami.com/wp-content/uploads/2020/05/620-Arvida-Pkwy-Coral-Gables-FL-33156-1.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Villa en Islas Azores</h2>
+					<p class="price">$2.000.000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.malagahoy.es/2022/08/25/malaga/mansion-Benahavis-propiedad-exclusiva-Espana_1714338713_164884512_667x375.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Villa en Macedonia</h2>
+					<p class="price">$5.000.000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://robbreport.mx/wp-content/uploads/2023/02/captura-de-pantalla-2023-02-26-a-las-83842.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Villa en Bali</h2>
+					<p class="price">$9.000.000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://s2.abcstatics.com/media/summum/2022/01/09/casa-adele-1-k6WD--620x349@abc.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Villa en Las Vegas</h2>
+					<p class="price">$6.000.000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>La calidad de nuestros proyectos es única</h1>
+            <p>Ofrecemos de los mejores servicios del mercado para que el cliente quede totalmente satisfecho.</p>
+            <a href="#">Leer más</a>
+        </section>
+        <img src="img/casa-1.jpg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+   
+    
+    <section class="results">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Seriedad</h4>
+                    <p>En la empresa, la seriedad es un principio fundamental que guía cada uno de nuestros pasos. Entendemos que la inversión en una casa es un asunto serio y que nuestros clientes confían en nosotros para proporcionarles servicios confiables y transparentes.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Calidad</h4>
+                    <p>Nos esforzamos por ofrecer servicios y productos de la más alta calidad en todas las etapas de nuestro trabajo. Nuestra experiencia en el mercado inmobiliario y la excelencia en la atención al cliente son pilares en los que construimos nuestra reputación. </p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Rapidez</h4>
+                    <p>la rapidez es una prioridad. Trabajamos con eficiencia y dedicación para asegurarnos de que las transacciones se completen de manera oportuna. Nuestro compromiso con la rapidez se extiende a todas las áreas de nuestros servicios, desde la identificación de propiedades ideales hasta la gestión de inquilinos y reparaciones en el hogar.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Buen trato</h4>
+                    <p>El buen trato es la piedra angular de nuestras relaciones con los clientes, creemos en la importancia de escuchar y comprender las necesidades de nuestros clientes. Ofrecemos un enfoque personalizado y amigable en cada interacción. </p>
+                </div>
+            </section>
+            <section class="results-text">
+                <h4>La base del éxito esta en la calidad del servicio.</h4>
+                <p>Es por eso que ofrecemos de los mejores servicios del mercado, desde los mejores servicios en tienda, hasta en la hora de ponerse manos a la obra para que asi el cliente se quede lo mas satisfecho posible.</p>
+                <a href="#">Nuestros proyectos</a>
+            </section>
+        </div>
+    </section>
+
+    <section class="contenedor1 services">
+        <img src="img/oficina-1.jpg" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Profesionalidad</h4>
+            <h4><i class="far fa-check-circle"></i> Calidad</h4>
+            <h4><i class="far fa-check-circle"></i> Rapidez</h4>
+            <h4><i class="far fa-check-circle"></i> Buen trato</h4>
+            <h4><i class="far fa-check-circle"></i> Seriedad</h4>
+        </div>
+    </section>
+    <section class="d-flex justify-content-center align-items-center">
+        <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+            <div class="mb-4 d-flex justify-content-start align-items-center">
+              
+                <h4>  <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+            </div>
+            <div class="mb-1">
+                <form id = "contacto" >
+                    <div class="mb-4 d-flex justify-content-between"> 
+                        <div>
+                            <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "ej: Jose" required>
+                            <div class="nombre text-danger "></div>
+                        </div>
+                        <div >
+                            <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                            <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "ej: Santana" required>
+                            <div class="apellido text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                        <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: josama018@gmail.com" required>
+                        <div class="correo text-danger"></div>
+                        
+                    </div> 
+                    <div class="mb-4">
+                        <div>
+                            <label><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="masculino" class="form-check-input" name="sexo" value="masculino">
+                            <label class="form-check-label" for="masculino">Masculino</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="femenino" class="form-check-input" name="sexo" value="femenino">
+                            <label class="form-check-label" for="femenino">Femenino</label>
+                        </div>
+                        <div class="sexo text-danger"></div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="mensaje"><i class="bi bi-chat-right-dots-fill"></i> Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola" required></textarea>
+                        <div class="mensaje text-danger"></div>
+                    </div>
+                    
+                    <div class="mb-2">
+                        <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                            <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                        </button>
+                    </div> 
+                              
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="partFooter">
+            <img src="img/logo-casa.png" alt="">
+        </div>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Servico de construccion de casas</a>
+            <a href="#">Servicio de inmuebles</a>
+            <a href="#">Servicio de decoración</a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">Casas en venta</a>
+            <a href="#">Muebles en stock</a>
+            <a href="#">Nuestros proyectos</a>
+        </div>
+        <div class="partFooter">
+            <h4>Nuestras Redes sociales</h4>
+            <div class="social-media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
